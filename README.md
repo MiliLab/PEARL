@@ -9,10 +9,15 @@
   <p align="center">
     Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Paper</a>
+    <a href="https://github.com/MiliLab/PEARL">Paper</a>
     &middot;
     <a href="https://huggingface.co/Rex1090/PEARL-7B">Model</a>
     &middot;
     <a href="https://huggingface.co/Rex1090/PEARL-7B">Dataset (Coming Soon)</a>
   </p>
 </div>
+
+## About PEARL
+PEARL (Perceptual-Evidence Anchored Reinforced Learning), a dual-branch, perception-reasoning synergistic that strengthens multimodal reasoning by explicitly an- choring it to verified visual evidence. 
+
+
