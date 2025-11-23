@@ -340,7 +340,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
                     else:
                         item['nframes'] = self.nframe
             elif s['type'] == 'text':
-                format_prompt = "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-basecv-hl/hadoop-basecv/user/zhangchi/mathllm/EasyR1_930/examples/format_prompt/math.jinja"
+                format_prompt = "format_prompt/math.jinja"
                 with open(format_prompt, encoding="utf-8") as f:
                    format_prompt = f.read()
                 from jinja2 import Template
@@ -440,7 +440,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
                             item['nframes'] = self.nframe
                     content.append(item)
             elif s['type'] == 'text':
-                format_prompt = "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-basecv-hl/hadoop-basecv/user/zhangchi/mathllm/EasyR1_930/examples/format_prompt/math.jinja"
+                format_prompt = "format_prompt/math.jinja"
                 with open(format_prompt, encoding="utf-8") as f:
                     format_prompt = f.read()
                 from jinja2 import Template
