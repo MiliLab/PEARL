@@ -21,7 +21,7 @@
 PEARL (Perceptual-Evidence Anchored Reinforced Learning), a dual-branch, perception-reasoning synergistic that strengthens multimodal reasoning by explicitly anchoring it to verified visual evidence. 
 
 <p align="center">
-    <img src="images/struct.png" width="60%">
+    <img src="images/struct.png" width="75%">
 </p>
 
 ## ToDo
@@ -33,7 +33,7 @@ PEARL (Perceptual-Evidence Anchored Reinforced Learning), a dual-branch, percept
 - [ ] Perception Probes ([ViRL39k](https://huggingface.co/datasets/TIGER-Lab/ViRL39K), [Geo3k](https://huggingface.co/datasets/hiyouga/geometry3k), [MMK12](https://huggingface.co/datasets/FanqingM/MMK12/viewer/default/train?p=2))
 
 ## Evaluation
-We use [VLMVLMEvalKit](https://github.com/open-compass/VLMEvalKit) for evaluation, please see [VLMVLMEvalKit](https://github.com/open-compass/VLMEvalKit) for enviornment installation. 
+We use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) for evaluation, please see [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) for enviornment installation. 
 
 ```bash
 git clone https://github.com/open-compass/VLMEvalKit.git
