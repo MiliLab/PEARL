@@ -58,7 +58,7 @@ Our inference configuration is as follows:
 ```
 setting ```post_process=False``` may change the reported scores.
 
-GPT-4.1 is employed as the judge for answer assessment. For benchmarks that rely on exact matching in VLMVLMEvalKit (with the exception of WeMath), we perform an additional round of LLM-based evaluation after the exact-match filtering. The prompting template is:
+GPT-4.1 is employed as the judge for answer assessment. For benchmarks that rely on exact matching in VLMEvalKit (with the exception of WeMath), we perform an additional round of LLM-based evaluation after the exact-match filtering. The prompting template is:
 ```
 def build_gpt4_score_prompt(line,gt):
     prompt = """
@@ -83,4 +83,4 @@ def build_gpt4_score_prompt(line,gt):
         """
 ```
 
-You may then obtain results by running the scripts provided in VLMVLMEvalKit.
+You may then obtain results by running the scripts provided in VLMEvalKit.
