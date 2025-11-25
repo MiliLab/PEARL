@@ -9,7 +9,7 @@
   <p align="center">
     Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning
     <br />
-    <a href="https://github.com/MiliLab/PEARL">Paper (Coming Soon)</a>
+    <a href="https://arxiv.org/abs/2511.18437">Paper</a>
     &middot;
     <a href="https://huggingface.co/Rex1090/PEARL-7B">Model</a>
     &middot;
