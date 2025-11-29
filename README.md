@@ -84,3 +84,13 @@ def build_gpt4_score_prompt(line,gt):
 ```
 
 You may then obtain results by running the scripts provided in VLMEvalKit.
+
+## Citation
+```
+@article{zhang2025perceptual,
+  title={Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning},
+  author={Zhang, Chi and Qiu, Haibo and Zhang, Qiming and Xu, Yufei and Zeng, Zhixiong and Yang, Siqi and Shi, Peng and Ma, Lin and Zhang, Jing},
+  journal={arXiv preprint arXiv:2511.18437},
+  year={2025}
+}
+```
